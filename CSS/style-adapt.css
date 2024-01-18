@@ -54,7 +54,7 @@
     }
 
     .main {
-        background-size: 1200px;
+        background-size: 992px;
     }
 
     .top {
@@ -74,7 +74,22 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .main-menu{
+        max-width: 65%;
+        
+    }
+    .main {
+        padding: 125px;
+    }
+    #text {
+        font-size: px;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-bottom: 200px;
+    }
 }
 
 @media screen and (max-width: 576px) {
