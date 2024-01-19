@@ -88,10 +88,20 @@
         display: flex;
         flex-direction: column;
         font-size: 20px;
-        margin-bottom: 200px;
+        margin-bottom: 50px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    
+    .main {
+        padding: 110px;
+    }
+
+    .top {
+        max-width: 50%;
+    }
+
+    #line {
+        width: 300px;
+    }
 }
